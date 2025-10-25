@@ -34,12 +34,6 @@ public class KiteconnectApplication {
 //     @Value("${my.app.apiKey}")
 //     private String apiKey;
 
-// 	@Value("${my.app.apiSecret}")
-//     private String apiSecret;
-
-// 	@Value("${my.app.requestToken}")
-//     private String requestToken;
-
 //     @PostConstruct
 //     public void run() {
 
