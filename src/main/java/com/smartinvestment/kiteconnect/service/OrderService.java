@@ -11,6 +11,6 @@ import java.io.IOException;
 @Service
 public class OrderService {
     public Order placeOrder(KiteConnect kiteSdk, OrderParams params) throws KiteException, IOException {
-        return kiteSdk.placeOrder(params, Constants.VARIETY_AMO);
+        return kiteSdk.placeOrder(params, Constants.VARIETY_REGULAR);
     }
 }
